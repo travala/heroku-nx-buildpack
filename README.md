@@ -8,7 +8,7 @@ Just add it to `app.json` definition, like:
  {
   "buildpacks": [
     { "url": "heroku/nodejs"},
-    { "url":  "https://github.com/travala/heroku-nx-buildpack.git" }
+    { "url":  "https://github.com/travala/heroku-nx-buildpack" }
   ]
 }
 ```
