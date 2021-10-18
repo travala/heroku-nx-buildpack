@@ -3,6 +3,6 @@
 echo "-----> Checking nx"
 if [ "$(npm list -g | grep -c nx)" -eq 0 ]; then
   echo "-----> Checking nx"
-  npm install -g nx
+  npm install -g @nrwl/cli
 fi
 echo "-----> Installed nx"
